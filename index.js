@@ -51,6 +51,14 @@ router.post("/testing", async (request,response) => {
   });
 });
 
+router.get("/hello", async (request,response) => {
+  response.set('Content-Type', 'text/html');
+  response.send(JSON.stringify('Hello world'));
+  //return response.status(200).json({
+  //  shee,
+  //});
+});
+
 // add router in the Express app.
 app.use("/", router);
 
