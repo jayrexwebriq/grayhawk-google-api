@@ -47,7 +47,7 @@ router.post("/handle", async (request,response) => {
 
 router.post("/testing", async (request,response) => {
   return response.status(200).json({
-    sheets: 'testing',
+    sheets: request.body,
   });
 });
 
