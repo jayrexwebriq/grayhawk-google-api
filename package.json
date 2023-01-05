@@ -1,8 +1,22 @@
 {
+  "name": "express-hello-world",
+  "version": "1.0.0",
+  "description": "Express Hello World on Render",
+  "main": "app.js",
+  "repository": "https://github.com/jayrexwebriq/grayhawk-google-api",
+  "author": "Webriq Developers",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "body-parser": "^1.20.1",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "google-spreadsheet": "^3.3.0"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
